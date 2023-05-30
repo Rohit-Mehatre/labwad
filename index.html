@@ -1,0 +1,39 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Multi-page template</title>
+</head>
+<body>
+        <!-- Start of first page: #one -->
+        <div data-role="page" id="one">
+        <div data-role="header">
+        <h1>Web Developement</h1>
+        </div><!-- /header -->
+            <div data-role="content" >
+            <h2>React JS</h2>
+            <p>React is a JavaScript library for building user interfaces. </p>
+            <p>React is used to build single-page applications.</p>
+            <p>React allows us to create reusable UI components.</p>
+            <h3>Show internal pages:</h3>
+            <p><a href="#two" data-role="button" data-theme="b">Next</a></p>
+        </div><!-- /content -->
+            <div data-role="footer" data-theme="d">
+            <h4>Made by Rohit Mehatre</h4>
+            </div><!-- /footer -->
+            </div><!-- /page one -->
+            <!-- Start of second page: #two -->
+            <div data-role="page" id="two" data-theme="a">
+                <div data-role="header">
+            <h1>Web Developement</h1>
+            </div><!-- /header -->
+        <div data-role="content" data-theme="a">
+                    <h2>CSS</h2>
+                    <p>HTML is the standard markup language for Web pages.</p>
+                    <p> HTML you can create your own Website.</p>
+                    <p> HTML is easy to learn - You will enjoy it!</p>
+
+                    <p><a href="#one" data-direction="reverse" data-role="button" data-
+                    theme="b">Previous Page</a></p>
+
+        </div><!-- /content -->
+        </div><!-- /page two -->
+</body>
+</html>
